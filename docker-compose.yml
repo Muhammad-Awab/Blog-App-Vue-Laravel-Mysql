@@ -3,7 +3,7 @@ version: '3'
 services:
   nginx:
     build:
-      context: ./frontend
+      context: .
       dockerfile: docker/nginx/Dockerfile
     container_name: laravel_vue_nginx
     ports:
